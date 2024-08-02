@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.container {
+  width: 450px;
+  height: 500px;
+  margin: auto;
+  background-color: #222;
+}
+
+p {
+  font-size: 12px;
+  color: white;
+}
+
+header {
+  border-bottom: 4px solid white;
+  height: 190px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.again {
+  width: 100px;
+  height: 35px;
+  color: black;
+  background-color: white;
+  font-family: "Press Start 2P", system-ui;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.between {
+  font-size: 9px;
+  padding: 10px;
+}
+
+.header-title {
+  text-align: center;
+  color: white;
+}
+
+.secreat-no {
+  width: 150px;
+  height: 100px;
+  font-size: 64px;
+  color: black;
+  font-family: "Press Start 2P", system-ui;
+  background-color: white;
+  text-align: center;
+  margin: 40px auto;
+  padding: 24px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin-top: 115px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.number {
+  width: 150px;
+  height: 90px;
+  font-size: 64px;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  text-align: center;
+  border: 3px solid white;
+  background: none;
+  margin-bottom: 20px;
+}
+
+.check {
+  width: 120px;
+  height: 35px;
+  color: black;
+  background-color: white;
+  font-family: "Press Start 2P", system-ui;
+  margin: 4px auto;
+  border-radius: 10px;
+}
+
+.message {
+  font-size: 10px;
+  margin-top: -45px;
+  margin-bottom: 30px;
+}
+
+.message-control {
+  position: absolute;
+}
+
+.aside {
+  display: flex;
+  position: sticky;
+}
+
+img {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  margin-top: 7px;
+}
+
+/* button:hover {
+  transform: scale(0.95);
+} */

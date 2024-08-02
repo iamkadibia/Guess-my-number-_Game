@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Guessing Game || iamkadibia</title>
+  </head>
+  <body>
+    <section id="container" class="container">
+      <header>
+        <section class="header-top">
+          <button id="btn-again" class="again">Again!</button>
+          <p class="between">(Between 1 and 20)</p>
+        </section>
+        <h2 class="header-title">Guess My Number!</h2>
+        <div id="secreat-no" class="secreat-no">?</div>
+      </header>
+
+      <main class="content">
+        <div class="left">
+          <input id="number" class="number" type="text" />
+          <button id="btn-check" class="check">Check!</button>
+        </div>
+
+        <div class="right">
+          <section class="message-control">
+            <p id="message" class="message">Start guesing...</p>
+          </section>
+          <section>
+            <div class="aside">
+              <img src="./img/score.png" alt="" />
+              <p class="score">Score: <span id="score-value">20</span></p>
+            </div>
+            <div class="aside">
+              <img src="./img/highscore.png" alt="" />
+              <p class="score">
+                HighScore: <span id="highscore-value">0</span>
+              </p>
+            </div>
+          </section>
+        </div>
+      </main>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
